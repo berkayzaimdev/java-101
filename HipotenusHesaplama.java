@@ -21,5 +21,9 @@ Alan * Alan = 𝑢 * (𝑢 − 𝑎)* (𝑢 − 𝑏) * (𝑢 − 𝑐)
 
         double hipo = Math.sqrt((k1*k1)+(k2*k2));
         System.out.println("Hipotenüs:"+hipo);
+
+        double u = (k1+k2+hipo)/2;
+        double alan=Math.sqrt(u*(u-k1)*(u-k2)*(u-hipo));
+        System.out.println("Üçgenin alanı:"+alan);
     }
 }
